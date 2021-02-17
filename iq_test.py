@@ -7,7 +7,7 @@ def iq_test(numbers):
     odd = []
 
     for k, v in num.items():
-        if find(v) == "even":
+        if is_even(v):
             even.append(k+1)
         else:
             odd.append(k+1)
@@ -15,8 +15,8 @@ def iq_test(numbers):
     return compare(even, odd)
 
 
-def find(i):
-    return "even" if int(i) % 2 == 0 else "odd"
+def is_even(i):
+    return True if int(i) % 2 == 0 else False
 
 
 def compare(even, odd):
@@ -26,6 +26,5 @@ def compare(even, odd):
 iq_test("2 4 7 8 10")  # 3
 iq_test("1 2 2")  # 1
 
-# Comparer odd/even
-# Savoir lequel est en majorité
-# Avoir la position de l'unique (en commençant par 1)
+
+#NOTE: Can be shortened
