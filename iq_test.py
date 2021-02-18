@@ -27,4 +27,4 @@ iq_test("2 4 7 8 10")  # 3
 iq_test("1 2 2")  # 1
 
 
-#NOTE: Can be shortened
+# NOTE: Can be shortened

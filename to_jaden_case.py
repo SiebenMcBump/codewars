@@ -14,3 +14,8 @@ def to_jaden_case(string):
 
 quote = "How can mirrors be real if our eyes aren't real"
 to_jaden_case(quote)
+
+
+# Not mine
+
+from string import capwords as toJadenCase
